@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courses">
+        <item>C语言</item>
+        <item>Java语言</item>
+        <item>数据库原理</item>
+        <item>计算机网络</item>
+    </string-array>
+
+</resources>

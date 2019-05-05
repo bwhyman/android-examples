@@ -1,9 +1,11 @@
 # Android Examples
 
-### update 2019.05.04
-
-Example01
-
+### update 2019.05.05  
+Example04: App Resources  
+Example03: UI-Events  
+Example02: Common Widgets  
+### update 2019.05.04  
+Example01: UI Layout
 ### update 2019.05.03
 弃用support库，基于AndroidX保证兼容性  
 基于Android Jetpack新一代的组件、工具和架构指导构建  
