@@ -57,7 +57,7 @@ public class ThirdActivity extends AppCompatActivity {
                 new Handler().postDelayed(() -> {
                     //取消刷新动画
                     swipe.setRefreshing(false);
-                    news.add(new News(1, "阿根廷VS波黑" + news.size(), "小组赛F组 阿根廷VS波黑"));
+                    news.add(0, new News(1, "阿根廷VS波黑" + news.size(), "小组赛F组 阿根廷VS波黑"));
                     adapter.notifyDataSetChanged();
                 }, 2000);
             }
