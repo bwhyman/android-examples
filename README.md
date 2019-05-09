@@ -1,5 +1,8 @@
 # Android Examples
-
+### update 2019.05.09
+Example06: RecyclerView
+### update 2019.05.08
+Example05: Activities  
 ### update 2019.05.05  
 Example04: App Resources  
 Example03: UI-Events  
