@@ -1,4 +1,6 @@
 # Android Examples
+### update 2019.05.11
+Example07: RecyclerView; ItemTouchHelper
 ### update 2019.05.09
 Example06: RecyclerView
 ### update 2019.05.08
