@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_send"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="ifRoom"
+        android:title="send" />
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom"
+        android:title="add" />
+    <group app:showAsAction="never">
+        <item
+            android:id="@+id/menu_edit"
+            android:icon="@android:drawable/ic_menu_edit"
+            app:showAsAction="ifRoom"
+            android:title="编辑" />
+        <item
+            android:id="@+id/menu_del"
+            android:icon="@android:drawable/ic_menu_delete"
+            app:showAsAction="ifRoom"
+            android:title="删除" />
+    </group>
+
+</menu>
