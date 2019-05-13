@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(mLayoutManager);
         // 指定item插入/移除动画
         DefaultItemAnimator animator = new DefaultItemAnimator();
+        // 包含默认的操作动画世界，也可自定义动画时间
         animator.setRemoveDuration(500);
         animator.setMoveDuration(500);
         recyclerView.setItemAnimator(animator);
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     //取消刷新动画
                     swipe.setRefreshing(false);
                     news.add(0, new News(1, "阿根廷VS波黑" + news.size(), "小组赛F组 阿根廷VS波黑"));
+                    // 指定通知可提高渲染效率，同时支持动画
                     adapter.notifyItemInserted(0);
                     recyclerView.scrollToPosition(0);
                 }, 500);

@@ -47,6 +47,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MyViewHolder> 
     @Override
     public void remove(int position) {
         news.remove(position);
+        // 指定通知可提高渲染效率，同时支持动画
         notifyItemRemoved(position);
     }
 

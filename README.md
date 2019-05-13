@@ -1,4 +1,6 @@
 # Android Examples
+### update 2019.05.13
+在项目gradle配置添加阿里镜像
 ### update 2019.05.12
 Example09: Fragment & Navigation  
 Example08: Appbar& Toolbar & Menu  
