@@ -1,5 +1,6 @@
 # Android Examples
 ### update 2019.05.14
+Example11: SharedPreferences  
 Example10: DrawerLayout & NavigationView
 ### update 2019.05.13
 在项目gradle配置添加阿里镜像，应置入allprojects repositories下
