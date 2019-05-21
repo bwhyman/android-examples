@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="thirdVM"
+            type="com.example.example12.viewmodel.ThirdViewModel" />
+        <import type="android.view.View" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="启动"
+        android:checked="@={thirdVM.checked}"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可用"
+        android:enabled="@{thirdVM.checked}"/>
+    <!-- 需引入View -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可见"
+        android:visibility="@{thirdVM.checked == true ? View.VISIBLE : View.GONE}"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@={thirdVM.userName}"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@{thirdVM.userName}"
+        android:textSize="36sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改变"
+        android:onClick="@{() -> thirdVM.change()}"/>
+
+</LinearLayout>
+</layout>
