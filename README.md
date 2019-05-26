@@ -1,4 +1,6 @@
 # Android Examples
+### update 2019.05.26
+Example13: Connecting to the Network
 ### update 2019.05.21
 Example12: DataBinding & ViewModel & LiveData  
 ### update 2019.05.14
