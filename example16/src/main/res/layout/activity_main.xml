@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本无按键" />
+
+    <Button
+        android:id="@+id/button2"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3按键" />
+
+    <Button
+        android:id="@+id/button3"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选无确认" />
+
+    <Button
+        android:id="@+id/button4"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选确认按钮" />
+
+    <Button
+        android:id="@+id/button5"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义样式" />
+
+    <Button
+        android:id="@+id/button6"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选确认" />
+    <Button
+        android:id="@+id/button7"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期选择器" />
+
+</LinearLayout>

@@ -1,8 +1,8 @@
 # Connecting to the Network
 ### Network Request/Response & Image Resources
 添加请求权限  
-创建自定义application类，配置  
 Android 9以后，要求网络请求必须为HTTPS加密请求，不便于测试，创建配置关闭该功能  
+创建自定义application类，配置  
 引入Retrofit框架依赖  
 创建实体类   
 创建封装响应数据的DTO类  
