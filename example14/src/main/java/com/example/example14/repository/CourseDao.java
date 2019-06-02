@@ -3,6 +3,7 @@ package com.example.example14.repository;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.RoomWarnings;
 import androidx.room.Transaction;
 
 import com.example.example14.entity.Course;
@@ -22,6 +23,7 @@ public interface CourseDao {
      * @return
      */
     @Query("SELECT c.id, c.name FROM Course c")
+    @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
     List<Course> listName();
 
     @Insert

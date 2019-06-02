@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 相当于Environment.getExternalStorageDirectory()获取的公共空间根路径，被替换 -->
+    <external-path name="public_path" path="/" />
+    <!-- 还可声明其他私有、缓存、外存储得到空间 -->
+
+</paths>

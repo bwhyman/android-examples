@@ -1,9 +1,9 @@
 # Room
 https://developer.android.google.cn/training/data-storage/room/index.html
 ### Query
+引用Room依赖  
 SQLite数据库，SQLite操作无需系统权限  
 启动/引入数据绑定，VM，等  
-引用Room依赖  
 自定义引入application备用  
 创建实体类  
 创建操作实体类的DAO层接口  

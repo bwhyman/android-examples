@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_startservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启服务" />
+
+    <Button
+        android:id="@+id/button_stopservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭服务" />
+
+    <Button
+        android:id="@+id/button_bindservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定服务" />
+
+    <Button
+        android:id="@+id/button_unbindservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除绑定" />
+
+    <Button
+        android:id="@+id/button_getcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取count值" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="count值"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="step" />
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="改变Service递增值" />
+
+</LinearLayout>
